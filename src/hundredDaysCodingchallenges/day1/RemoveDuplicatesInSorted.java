@@ -1,0 +1,19 @@
+package hundredDaysCodingchallenges.day1;
+
+public class RemoveDuplicatesInSorted {
+    public static void main(String[] args) {
+        int[] nums = {0,0,1,1,1,2,2,3,3,4};
+        int p1 = 0;
+        for(int p2 = 1; p2 < nums.length ; p2++){
+            if(nums[p1] != nums[p2]){
+                p1++;
+                nums[p1] = nums[p2];
+            }
+        }
+        System.out.println(p1 + 1);
+    }
+}
+/*Input: nums = [0,0,1,1,1,2,2,3,3,4]
+Output: 5, nums = [0,1,2,3,4,_,_,_,_,_]
+Explanation: Your function should return k = 5, with the first five elements of nums being 0, 1, 2, 3, and 4 respectively.
+It does not matter what you leave beyond the returned k (hence they are underscores).*/
