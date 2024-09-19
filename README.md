@@ -1,5 +1,5 @@
 # DSA-Mastery
-## 🎉 Dynamic Programming Challenges
+## 🎯 Dynamic Programming Challenges
 
 This section contains various problems categorized under dynamic programming (DP).
 
