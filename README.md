@@ -29,11 +29,11 @@ This section contains various problems categorized under dynamic programming (DP
 
 ### DP On Grids (Two Parameter):
 
--**Ninjas Training** -[Ninjas Trainin](https://www.codingninjas.com/studio/problems/ninja-s-training_3621003)
--**Unique Paths** -[Unique Paths][https://leetcode.com/problems/unique-paths/]
--**Unique Paths-ii** -[Unique Paths-ii](https://leetcode.com/problems/unique-paths-ii/description/)
--**Triangle** - [Triangle](https://leetcode.com/problems/triangle/)
--**Minimum Falling Path Sum in Matrix** - [Minimum Falling Path Sum in Matrix](https://leetcode.com/problems/minimum-falling-path-sum/description/)
+- **Ninjas Training** - [Ninjas Training](https://www.codingninjas.com/studio/problems/ninja-s-training_3621003)
+- **Unique Paths** - [Unique Paths](https://leetcode.com/problems/unique-paths/)
+- **Unique Paths II** - [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/)
+- **Triangle** - [Triangle](https://leetcode.com/problems/triangle/)
+- **Minimum Falling Path Sum in Matrix** - [Minimum Falling Path Sum in Matrix](https://leetcode.com/problems/minimum-falling-path-sum/)
 
 ### Dp On Longest Common Subsequence
 
