@@ -1,4 +1,7 @@
 # DSA-Mastery
+## 🗺️ Graph Challenges:
+-[Fundamentals Of Graph Theory](https://www.geeksforgeeks.org/fundamentals-of-graph-theory/)
+
 ## 🎯 Dynamic Programming Challenges
 
 This section contains various problems categorized under dynamic programming (DP).
