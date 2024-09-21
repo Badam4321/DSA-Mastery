@@ -1,15 +1,17 @@
 # DSA-Mastery
 ## 🗺️ Graph Challenges:
--[Fundamentals Of Graph Theory](https://www.geeksforgeeks.org/fundamentals-of-graph-theory/)
+- [Fundamentals Of Graph Theory](https://www.geeksforgeeks.org/fundamentals-of-graph-theory/)
+
 ## Representation Of Graph:
--[Adjacency Matrix][https://www.geeksforgeeks.org/adjacency-matrix/]
--[Adjacency List][https://www.programiz.com/dsa/graph-adjacency-list]
+- [Adjacency Matrix](https://www.geeksforgeeks.org/adjacency-matrix/)
+- [Adjacency List](https://www.programiz.com/dsa/graph-adjacency-list)
+
 ## Graph Traversal:
--[BFS](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
--[DfS](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
--Practice Platoforms
-   -[BFS](https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1)
-   -[DFS](https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1)
+- [BFS](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
+- [DFS](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
+- [BFS Practice Problem](https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1)
+- [DFS Practice Problem](https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1)
+
 
 ## 🎯 Dynamic Programming Challenges
 
