@@ -66,7 +66,69 @@ class Solution {
 - [Number Of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)  
 - [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)  
 
+### ToplLogical Sort
+```java
+class Solution
+{
+    // Function to return a list containing vertices in Topological order. 
+    static int[] topoSort(int V, ArrayList<ArrayList<Integer>> adj) 
+    {
+        // Step 1: Initialize an array to store the in-degree of each vertex
+        int[] indegree = new int[V];
+        
+        // Calculate the in-degree of each vertex
+        for(ArrayList<Integer> arr : adj) {
+            for(int u : arr) {
+                indegree[u]++; // Increment in-degree for each adjacent vertex
+            }
+        }
 
+        // Step 2: Create a queue to hold all vertices with in-degree of 0
+        Queue<Integer> queue = new LinkedList<>();
+        
+        // Add all vertices with in-degree 0 to the queue
+        for(int i = 0; i < V; i++) {
+            if(indegree[i] == 0) {
+                queue.add(i); // Vertex with no incoming edges
+            }
+        }
+
+        // Step 3: Initialize an array to store the topological order
+        int[] topologicalOrder = new int[V];
+        int j = 0; // Index for the topological order array
+        
+        // Process the queue until it's empty
+        while(!queue.isEmpty()) {
+            int size = queue.size(); // Get the number of vertices in the queue
+            
+            // Process each vertex in the current level
+            for(int i = 0; i < size; i++) {
+                int u = queue.poll(); // Remove a vertex from the queue
+                topologicalOrder[j++] = u; // Add it to the topological order
+                
+                // Decrease the in-degree of all its adjacent vertices
+                for(int v : adj.get(u)) {
+                    indegree[v]--; // Reduce in-degree of vertex v
+                    // If in-degree of v becomes 0, add it to the queue
+                    if(indegree[v] == 0) {
+                        queue.add(v);
+                    }
+                }
+            }
+        }
+        
+        // Return the final topological order
+        return topologicalOrder;
+    }
+}
+
+```
+-(Topological Sorting)[https://www.geeksforgeeks.org/problems/topological-sort/1]
+-(Direct Graph Cycle)[https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1]
+-(Course Schedule)[https://leetcode.com/problems/course-schedule/description/]
+-(Course Schedule ii)[https://leetcode.com/problems/course-schedule-ii/description/?]
+-(Alien Dictionary)[https://www.geeksforgeeks.org/problems/alien-dictionary/1]
+-(Largest color value in a directed graph)[https://leetcode.com/problems/largest-color-value-in-a-directed-graph/description/]
 
 
 ## 🎯 Dynamic Programming Challenges
