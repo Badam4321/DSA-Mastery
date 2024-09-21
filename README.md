@@ -2,15 +2,71 @@
 ## 🗺️ Graph Challenges:
 - [Fundamentals Of Graph Theory](https://www.geeksforgeeks.org/fundamentals-of-graph-theory/)
 
-## Representation Of Graph:
+### Representation Of Graph:
 - [Adjacency Matrix](https://www.geeksforgeeks.org/adjacency-matrix/)
 - [Adjacency List](https://www.programiz.com/dsa/graph-adjacency-list)
 
-## Graph Traversal:
+### Graph Traversal:
 - [BFS](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 - [DFS](https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/)
 - [BFS Practice Problem](https://www.geeksforgeeks.org/problems/bfs-traversal-of-graph/1)
 - [DFS Practice Problem](https://www.geeksforgeeks.org/problems/depth-first-traversal-for-a-graph/1)
+
+### Shortest Path Problems:
+- [Shortest Path in Matrix (BFS)](https://leetcode.com/problems/shortest-path-in-binary-matrix/)
+- [Distance of Nearest Cell Having 1 (BFS)](https://www.geeksforgeeks.org/distance-of-nearest-cell-having-1-in-a-binary-matrix/)
+- [All Nodes Distance K in Binary Tree (DFS/BFS)](https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/)
+- [Map of Highest Peak (BFS)](https://leetcode.com/problems/map-of-highest-peak/)
+- [Rotten Oranges (BFS)](https://leetcode.com/problems/rotting-oranges/)
+- [As Far from Land as Possible (BFS)](https://leetcode.com/problems/as-far-from-land-as-possible/)
+-[shortest path to get all keys](https://leetcode.com/problems/shortest-path-to-get-all-keys/?envType=study-plan-v2&envId=graph-theory)
+
+### DFS Problems:
+### Note : we can solve below patterns using bfs also but for better readbilty we will go through dfs technique
+```java
+class Solution {
+    public int numIslands(char[][] grid) {
+        int rows = grid.length;
+        int cols = grid[0].length;
+        int count = 0;
+        int[][] dir = new int[][]{
+            {0 , -1} , {0 , +1} , {1 , 0} , {-1 , 0}
+        };
+        for(int i = 0 ; i < rows ; i++){
+            for(int j = 0 ; j < cols; j++){
+                if(grid[i][j] == '1'){
+                    count++;
+                    dfs(grid , i , j , dir);
+                }
+            }
+        }
+        return count;
+        
+    }
+    public void dfs(char[][] grid, int row, int col, int[][] dir) {
+        grid[row][col] = '0'; // Mark the cell as visited
+
+        for (int i = 0; i < 4; i++) {
+            int nr = row + dir[i][0];
+            int nc = col + dir[i][1];
+
+            // Check if the new coordinates are within bounds and if the cell is land ('1')
+            if (nr >= 0 && nr < grid.length && nc >= 0 && nc < grid[0].length && grid[nr][nc] == '1') {
+                dfs(grid, nr, nc, dir);
+            }
+        }
+    }
+}
+```
+- [Number of Islands](https://leetcode.com/problems/number-of-islands/)  
+- [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)  
+- [Number of Provinces](https://leetcode.com/problems/number-of-provinces/)  
+- [Number of Enclaves](https://leetcode.com/problems/number-of-enclaves/)  
+- [Max Area of Island](https://leetcode.com/problems/max-area-of-island/)  
+- [Number Of Closed Islands](https://leetcode.com/problems/number-of-closed-islands/)  
+- [Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)  
+
+
 
 
 ## 🎯 Dynamic Programming Challenges
