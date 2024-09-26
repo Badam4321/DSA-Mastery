@@ -121,14 +121,24 @@ class Solution
         return topologicalOrder;
     }
 }
-
 ```
--(Topological Sorting)[https://www.geeksforgeeks.org/problems/topological-sort/1]
--(Direct Graph Cycle)[https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1]
--(Course Schedule)[https://leetcode.com/problems/course-schedule/description/]
--(Course Schedule ii)[https://leetcode.com/problems/course-schedule-ii/description/?]
--(Alien Dictionary)[https://www.geeksforgeeks.org/problems/alien-dictionary/1]
--(Largest color value in a directed graph)[https://leetcode.com/problems/largest-color-value-in-a-directed-graph/description/]
+-[Topological Sorting](https://www.geeksforgeeks.org/problems/topological-sort/1)
+-[Direct Graph Cycle](https://www.geeksforgeeks.org/problems/detect-cycle-in-a-directed-graph/1)
+-[Course Schedule](https://leetcode.com/problems/course-schedule/description/)
+-[Course Schedule ii](https://leetcode.com/problems/course-schedule-ii/description/?)
+-[Alien Dictionary](https://www.geeksforgeeks.org/problems/alien-dictionary/1)
+-[Largest color value in a directed graph](https://leetcode.com/problems/largest-color-value-in-a-directed-graph/description/)
+
+### Shortest Path Problem
+[Shortest path in undirected graph - having unit weight](https://www.geeksforgeeks.org/problems/shortest-path-in-undirected-graph-having-unit-distance/1)
+[Dijkstra Algorithm](https://www.geeksforgeeks.org/problems/implementing-dijkstra-set-1-adjacency-matrix/1)
+[Jumping Game](https://practice.geeksforgeeks.org/contest/gfg-weekly-169-rated-contest/problems)
+[minimum cost path in grid](https://www.geeksforgeeks.org/problems/minimum-cost-path3833/1)
+[Print Shortest Path](https://www.geeksforgeeks.org/problems/shortest-path-in-weighted-undirected-graph/1)
+[Path With Minimum Effort](https://leetcode.com/problems/path-with-minimum-effort/description/)
+[Cheapest flights with k stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/description/)
+[Number of ways to arrive the destination](https://leetcode.com/problems/number-of-ways-to-arrive-at-destination/description/)
+
 
 
 ## 🎯 Dynamic Programming Challenges
