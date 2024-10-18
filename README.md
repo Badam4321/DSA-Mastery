@@ -1,4 +1,16 @@
 # DSA-Mastery
+
+# Linked List
+## Fundamentals Of Linked List
+- [Basics  Of Linked List](https://leetcode.com/discuss/study-guide/1800120/become-master-in-linked-list)
+## Most Important Pattern Linked List 
+### 1 . Linked List In-place Reversal
+- [Linked List In-place Reversal](https://blog.algomaster.io/p/7dcce8e9-beee-4fef-8874-7aae025031b1)
+- [More problems On reverasl](https://github.com/Chanda-Abdul/Several-Coding-Patterns-for-Solving-Data-Structures-and-Algorithms-Problems-during-Interviews/blob/main/%E2%9C%85%20%20Pattern%2006%3A%20In-place%20Reversal%20of%20a%20LinkedList.md)
+### 2. Fast And slow (Hare & Tortoise algorithm)
+- [Fast And Slow Pointers](https://medium.com/@arifimran5/fast-and-slow-pointer-pattern-in-linked-list-43647869ac99)
+## Important classification of Linked List question in  Leetcode platform
+- [Leetcode Linked List classification](https://leetcode.com/discuss/study-guide/2434752/90-of-the-Linked-List-questions-on-linked-list-classified-into-Types)
 ## 🗺️ Graph Challenges:
 - [Fundamentals Of Graph Theory](https://www.geeksforgeeks.org/fundamentals-of-graph-theory/)
 
