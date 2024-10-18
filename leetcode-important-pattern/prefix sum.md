@@ -7,4 +7,4 @@ Before diving into the prefix sum , some warm up problems for this patterns
 
 Given a sequence of integers a0, a1, . . . , aN−1, you will be given Q queries
 of the form [L, R). For each query, compute S(L, R) = aL+aL+1+· · ·+aR−1.
-[](D:\DSA-Mastery\leetcode-important-pattern\images\prefix.png)
+[](https://github.com/Badam4321/DSA-Mastery/blob/master/leetcode-important-pattern/images/prefix.png)
